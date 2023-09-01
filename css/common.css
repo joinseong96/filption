@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;600;700;800&display=swap');
+
+body {
+  margin: 0 auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+.page_content{overflow: hidden;}
+.img_fit_cover img{object-fit: cover;}
+
+
+@keyframes spin_image{100% {transform: rotate(360deg);}}
+
+@keyframes fadeUp{
+  0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0,100%,0);
+      transform: translate3d(0,100%,0);
+  }
+  
+  100% {
+      opacity: 1;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+  }
+}
+
+@keyframes fadeDown{
+  0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0,-100%,0);
+      transform: translate3d(0,-100%,0);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+  }
+}
+
+@keyframes fadeLeft{
+  0%{
+    opacity: 0;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+@keyframes fadeRight{
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+  }
+
+  100% {
+      opacity: 1;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+  }
+}
+
+/* ! animation */

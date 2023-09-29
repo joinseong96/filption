@@ -104,8 +104,8 @@
     .point_banner01{ height: calc(100vw*(795/1580));}
     .point_banner02{ height: calc(100vw*(873/1580));}
 
-    .point_banner01 .bg {height: calc(100vw*(795/1580)); background-image: url('../../../../../../../../../../Portfolio/Fliption/images/img_point_banner01.png');}
-    .point_banner02 .bg {height: calc(100vw*(865/1580)); bottom: calc(100vw*(100/1580)); background-image: url('../../../../../../../../../../Portfolio/Fliption/images/img_point_banner02.png');}
+    .point_banner01 .bg {height: calc(100vw*(795/1580)); background-image: url('../images/img_point_banner01.png');}
+    .point_banner02 .bg {height: calc(100vw*(865/1580)); bottom: calc(100vw*(100/1580)); background-image: url('../images/img_point_banner02.png');}
 
     .point_title_wrap{width: calc(100vw*(1400/1580)); margin: 0 auto calc(100vw*(173/1580));}
     .point_title{width: calc(100vw*(475/1580));}
@@ -245,8 +245,8 @@
     .point_banner01{ height: calc(100vw*(283/428));}
     .point_banner02{ height: calc(100vw*(200/428));}
     
-    .point_banner01 .bg {height: calc(100vw*(283/428)); background-image: url('../../../../../../../../../../Portfolio/Fliption/images/img_point_banner_mb01.png');}
-    .point_banner02 .bg{bottom: calc(100vw*(124/428)); height: calc(100vw*(200/428)); background-image: url('../../../../../../../../../../Portfolio/Fliption/images/img_point_banner_mb02.png');}
+    .point_banner01 .bg {height: calc(100vw*(283/428)); background-image: url('../images/img_point_banner_mb01.png');}
+    .point_banner02 .bg{bottom: calc(100vw*(124/428)); height: calc(100vw*(200/428)); background-image: url('../images/img_point_banner_mb02.png');}
 
     .point_title_wrap{width: 100%; margin: 0 auto calc(100vw*(98/428));}
     .point_title{width: calc(100vw*(362/428)); margin-left: calc(100vw*(24/428));}

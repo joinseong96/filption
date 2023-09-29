@@ -226,8 +226,8 @@
     background-repeat: no-repeat;
   }
   
-.point_banner01 .bg {height: 795px; top: 0; background-image: url('../../../../../../../../../../Portfolio/Fliption/images/img_point_banner01.png');}
-.point_banner02 .bg {height: 865px; bottom: 100px; background-image: url('../../../../../../../../../../Portfolio/Fliption/images/img_point_banner02.png');}
+.point_banner01 .bg {height: 795px; top: 0; background-image: url('../images/img_point_banner01.png');}
+.point_banner02 .bg {height: 865px; bottom: 100px; background-image: url('../images/img_point_banner02.png');}
 
 .point_title_wrap{width: 1400px; margin: 0 auto 173px; position: relative; z-index: 1;}
 .point_title{width: 410px;}
